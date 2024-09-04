@@ -37,7 +37,7 @@
             return $this->price;
         }
 
-        // Setter pour $price
+        
         public function setPrice($price) {
             if (is_int($price) && $price > 0) {
                 $this->price = $price;
@@ -46,12 +46,12 @@
             }
      }
 
-        // Getter pour $quantity
+        
         public function getQuantity() {
             return $this->quantity;
         }
 
-        // Setter pour $quantity
+        
         public function setQuantity($quantity) {
             if (is_int($quantity) && $quantity >= 0) {
                 $this->quantity = $quantity;
@@ -60,28 +60,25 @@
             }
         }
 
-        // Getter pour $createdAt
+        
         public function getCreatedAt() {
             return $this->createdAt;
         }
 
-        // Setter pour $createdAt
+       
         public function setCreatedAt(DateTime $createdAt) {
             $this->createdAt = $createdAt;
         }
 
-        // Getter pour $updatedAt
+        
         public function getUpdatedAt() {
             return $this->updatedAt;
         }
 
-        // Setter pour $updatedAt
         public function setUpdatedAt(DateTime $updatedAt) {
             $this->updatedAt = $updatedAt;
         }
     }
-
-
 
 
 
