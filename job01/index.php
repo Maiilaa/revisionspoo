@@ -59,7 +59,7 @@ var_dump($product->getUpdatedAt());
         <p><strong>New Updated At:</strong> <?php echo $product->getUpdatedAt()->format('Y-m-d H:i:s'); ?></p>
     </main>
     <footer>
-        <p>&copy; 2024 - My Product Store</p>
+        
     </footer>
 </body>
 </html>
