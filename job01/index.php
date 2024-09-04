@@ -7,13 +7,13 @@
 </head>
 <body>
     <header>
-
+        <h1>coucou</h1>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
