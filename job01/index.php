@@ -1,19 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-<body>
-    <header>
-        <h1>coucou</h1>
-    </header>
-    <main>
+<?php
+require_once 'Product.php';
 
-    </main>
-    <footer>
+$product = new Product(
+    1,
+    'T-shirt',
+    ['https://picsum.photos/200/300'],
+    1000,
+    'A beautiful T-shirt',
+    10,
+    new DateTime(),
+    new DateTime()
+);
 
-    </footer>
-</body>
-</html>
+var_dump($product);
+echo $product->getName(); 
+$product->setPrice(1200);
+echo $product->getPrice();
+?>
